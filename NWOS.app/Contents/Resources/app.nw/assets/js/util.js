@@ -43,6 +43,24 @@ HTMLElement.prototype.css = function (obj) {
   }
 }
 
+HTMLElement.prototype.fadeOut = function () {
+  var _self = this;
+  _self.style.width = 0;
+  _self.style.height = 0;
+  _self.style.opacity = 0;
+  setTimeout(function () {
+    _self.style.display = 'none';
+  }, 1000);
+}
+
+HTMLElement.prototype.fadeIn = function () {
+  var _self = this;
+  _self.style.display = 'block';
+  setTimeout(function () {
+    _self.style.opacity = 1;
+  }, 100);
+}
+
 // String Extension
 String.prototype.getLengthOfBytes = function () {
   var chinese = this.match(/[^\x00-\xff]/ig);
