@@ -1,0 +1,49 @@
+/* button */
+.button {
+  cursor: pointer;
+}
+/* button */
+
+
+/* window */
+.window {
+  width: 480px;
+  height: 360px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+.window-toolbar {
+  width: 100%;
+  height: 30px;
+  padding: 5px 10px;
+  background: rgba(220, 220, 220, 0.8);
+  border-radius: 5px 5px 0 0;
+  cursor: move;
+}
+
+.window-cancel {
+  width: 14px;
+  height: 14px;
+  background: #f00;
+  color: #f00;
+  border-radius: 50%;
+}
+.window-cancel:hover {
+  background: #f33;
+  color: #fff;
+}
+
+.window-main {
+  width: 100%;
+  height: 330px;
+  border: 2px solid rgba(200, 200, 200, 0.7);
+  border-top: none;
+  border-radius: 0 0 5px 5px;
+  background: #fff;
+}
+/* window */

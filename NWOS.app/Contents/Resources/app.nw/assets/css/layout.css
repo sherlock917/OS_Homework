@@ -7,10 +7,12 @@
   list-style: none;
   text-decoration: none;
 
+  box-sizing: border-box;
+
   font-family: "微软雅黑", Helvetica,sans-serif;
   font-weight: 100;
   color: #000;
-  transition: width 1s, height 1s, opacity 1s;
+  transition: color 0.3s, background 0.3s, opacity 0.3s;
 }
 
 .screen {
@@ -24,4 +26,5 @@
   margin: auto;
   display: none;
   opacity: 0;
+  transition: width 1s, height 1s, opacity 1s;
 }

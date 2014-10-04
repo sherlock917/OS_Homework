@@ -80,6 +80,36 @@
 
 /* main screen start */
 .main-screen {
+  opacity: 1;
+  display: block;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #41b784), color-stop(1, #6090b2));
+}
+
+.dock {
+  width: 600px;
+  height: 60px;
+  padding: 10px 20px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -300px;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 10px 10px 0 0;
+  overflow: hidden;
+}
+
+.app-icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+  float: left;
+  background-size: contain;
+  cursor: pointer;
+}
+.app-icon:hover {
+  opacity: 0.8;
+}
+.app-icon-chrome {
+  background-image: url(../img/chrome.png);
 }
 /* main screen end */

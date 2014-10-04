@@ -4,7 +4,7 @@ var win = gui.Window.get();
 // win.isFullscreen = true;
 
 window.onload = function () {
-  viewLoader();
+  // viewLoader();
 }
 
 function viewLoader () {
