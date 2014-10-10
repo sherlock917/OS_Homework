@@ -98,7 +98,7 @@
   overflow: hidden;
 }
 
-.app-icon {
+.app {
   width: 40px;
   height: 40px;
   margin-right: 20px;
@@ -106,10 +106,10 @@
   background-size: contain;
   cursor: pointer;
 }
-.app-icon:hover {
+.app:hover {
   opacity: 0.8;
 }
-.app-icon-chrome {
+.app-chrome {
   background-image: url(../img/chrome.png);
 }
 /* main screen end */
