@@ -112,4 +112,10 @@
 .app-chrome {
   background-image: url(../img/chrome.png);
 }
+.app-map {
+  background-image: url(../img/map.png);
+}
+.app-music {
+  background-image: url(../img/music.png);
+}
 /* main screen end */
