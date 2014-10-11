@@ -44,6 +44,15 @@
   color: #fff;
 }
 
+.window-minimize {
+  background: #ff0;
+  color: #ff0;
+}
+.window-minimize:hover {
+  background: #ff5;
+  color: #fff;
+}
+
 .window-maximize {
   background: #0f0;
   color: #0f0;

@@ -1,10 +1,18 @@
 var gui = require('nw.gui'); 
 var win = gui.Window.get();
 
-win.isFullscreen = true;
+var mode = 0;
+
+if (mode == 0) {
+  $('.main-screen').css({'opacity' : 1, 'display' : 'block'});
+} else {
+  win.isFullscreen = true;
+}
 
 window.onload = function () {
-  // viewLoader();
+  if (mode == 1) {
+    viewLoader();
+  }
   eventHandler();
 }
 
